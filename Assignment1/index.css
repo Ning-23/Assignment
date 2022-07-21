@@ -50,7 +50,8 @@ input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline-color: rgba(38, 207, 245, 0.801);
+    box-shadow: 0 0 10px rgb(142,187,231);
+    outline:none;
 }
 
 .input-boarder{

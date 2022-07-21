@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My static website</title>
+    <link href="./index.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <main>
+        <form class="grid-container">
+            <label id="title">Sign Up</label>
+            <input class="input-boarder" type="text" id="firstName" placeholder="First Name" required>
+            <input class="input-boarder" type="text" id="lastName" placeholder="Last Name" required>
+            <input class="input-boarder" type="tel" id="phone" placeholder="Mobile No."  
+                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <input class="input-boarder" type="email" id="emailAddress" placeholder="Email Address" required>
+            <input class="input-boarder" type="password" id="password" placeholder="Password" required>
+            <input class="input-boarder" type="password" id="confirmPass" placeholder="Confirm Password" required>
+            <div id="check">
+                <input type="checkbox" id="checkBox" required>
+                <label for="checkBox"> I Agree</label>
+            </div>
+            
+            <p id="declare">By clicking <span>Register</span>, you agree to the <a href="#">Terms and Conditions</a>
+                set out by this site, including our Cookie Use.</p>
+            <button id="register">Register</button>
+            <button id="sign-in">Sign In</button>
+        </form>
+    </main>
+    <script defer src="./index.js"></script>
+</body>
+</html>

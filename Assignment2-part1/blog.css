@@ -115,6 +115,7 @@ footer{
     height:10vh;
     padding-top:3vh;
     text-align: center;
+    margin-top: 2vh;
     background-color: var(--color-light-grey);
 }
 .footer__span{

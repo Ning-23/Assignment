@@ -40,7 +40,9 @@ header{
     margin-bottom: 3vh;
     text-decoration: underline;
 }
-i{
+img{
+    width:1.2rem;
+    height:2rem;
     padding-top: 1.5vh;
 }
 

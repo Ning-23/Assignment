@@ -1,0 +1,175 @@
+:root{
+    --color-green:rgb(63,175,86);
+    --color-grey:rgb(137,143,151);
+    --color-blue:rgb(69,146,255);
+    --color-subscribe-btn:rgb(178,181,186);
+    --color-light-grey:rgb(250,249,249);
+}
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size:62.25%;
+}
+
+body{
+    font-size:1.6rem;
+    box-sizing: border-box;
+    font-family: serif;
+    width:100vw;
+    height:100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header__link{
+    color:var(--color-subscribe-btn);
+    padding-top: 1.5vh;
+}
+.header__title{
+    text-align: center;
+    margin-bottom: 3vh;
+    text-decoration: underline;
+}
+i{
+    padding-top: 1.5vh;
+}
+
+main{
+    display: flex;
+    width:75vw;
+    height:auto;
+    position:relative;
+    justify-content: space-between;
+    left:13vw;
+}
+
+.main__section--left{
+    display: block;
+    flex-grow: 3;
+    padding-right:3vw;
+}
+.main__section--right{
+    display: block;
+    flex-grow: 1;
+}
+
+.section__title{
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.section__date{
+    display: block;
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    color:var(--color-grey);
+}
+
+.section__link{
+    color:var(--color-blue);
+}
+.section__dividing-line{
+    color:var(--color-light-grey);
+}
+.section__p{
+    display:block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section__h1{
+    font-size: 3rem;
+}
+
+.section__div{
+    display: block;
+    border-style: groove;
+}
+
+.section__ul{
+    display:block;
+    padding-left: 3rem;
+}
+
+.section__ol{
+    display:block;
+    padding-left: 3rem;
+}
+
+.section__buttons{
+    display:block;
+    margin-top: 4rem;
+}
+
+.div__button-1{
+    border: 0.2rem solid var(--color-blue);
+    border-radius:2rem;
+    background: rgba(250, 250, 250, 0.5);
+    width:9rem;
+    height:3rem;
+    color:var(--color-blue);
+}
+
+.div__button-2{
+    border: 0.2rem solid var(--color-grey);
+    border-radius:2rem;
+    background: rgba(250, 250, 250, 0.5);
+    width:9rem;
+    height:3rem;
+    color:var(--color-grey);
+}
+
+.section__card{
+    display:block;
+    background:var(--color-light-grey);
+    padding: 1rem 1rem 1rem 2rem;
+
+}
+
+.div__title{
+    font-size: 2.5rem;
+    display: block;
+    font-weight: 570;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.section__list{
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.footer__span{
+    display: block;
+    
+    color:var(--color-grey);
+}
+
+.span__link{
+    color:var(--color-blue);
+}
+
+footer{
+    display: block;
+    position:relative;
+    width:100vw;
+    height:10vh;
+    padding-top:4vh;
+    margin-top: 2vh;
+    text-align: center;
+    background-color: var(--color-light-grey);
+}
+

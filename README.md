@@ -6,6 +6,6 @@
 <img width="1088" alt="image" src="https://user-images.githubusercontent.com/109552161/180565916-939bc0a8-949d-41f1-aa35-7ef9404dc7e0.png">
 #part2
 <img width="1015" alt="image" src="https://user-images.githubusercontent.com/109552161/180622773-a8910fcd-858e-4b68-bdd2-08b8ec9d1046.png">
-<img width="1267" alt="image" src="https://user-images.githubusercontent.com/109552161/180622824-61990d1f-9a7e-4e08-aa00-c0ca52d131ed.png">
+
 
 

@@ -100,3 +100,17 @@ function reducer(previous, current, index) {
 array.ourReduce(reducer);
 
 
+function foo() {
+    return setTimeout(() => {
+        return 5}, 2000)
+}
+
+const a = foo();
+console.log(a)
+
+setTimeout(() => {
+    console.log(a)
+}, 3000)
+
+
+
